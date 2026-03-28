@@ -1,0 +1,34 @@
+{
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "name": "dao-nexus",
+  "version": "1.0.0",
+  "description": "DAO Nexus -- CrossChain Governance & Treasury Protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "lint": "eslint . --ext .js,.sol",
+    "test:coverage": "hardhat coverage",
+    "security:audit": "npm audit"
+  },
+  "keywords": [
+    "dao",
+    "governance",
+    "cross-chain",
+    "treasury"
+  ],
+  "author": "DAO Nexus Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "hardhat": "^2.22.2",
+    "eslint": "^8.57.0",
+    "hardhat-coverage": "^2.1.1"
+  }
+}
